@@ -273,3 +273,91 @@ font-family: "Montserrat";
 
 
 }
+
+
+
+
+.row2{
+    padding: 80px 10px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+
+}
+.col7{
+    
+    
+    margin-left: 150px;
+}
+.col7 input{
+    padding: 5px;
+    font-size: 20px;
+    background:transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.subscribe button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    
+}
+.subscribe button:hover{
+    background-color: white;
+    color: black;
+    /* font-size: 18px; */
+    transition: 1s;
+}
+
+.contact{
+    font-size: 35px;
+}
+.contact:hover{
+    cursor:pointer;
+    text-shadow: 2px 2px 2px blue;
+}
+.icons2 a{
+    color: aliceblue;
+    
+}
+.icons2 i{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 2px;
+    color: aqua;
+  
+    
+}
+
+.icons2 i:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    border: 2px solid white;
+  
+
+}
+
+.col7 a{
+    text-decoration: none;
+    color: white;
+}
+.about a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+
+.footer{
+
+    background: black;
+    height: 500px;
+    background-size: cover;
+    
+    color: white;
+}
